@@ -1,0 +1,1130 @@
+[05/06/2025, 14:55:02] Script started
+[05/06/2025, 14:55:03] Starting new sweep cycle
+[05/06/2025, 14:55:03] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:03] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:03] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:03] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:03] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:03] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:04] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:04] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97581 seconds (79.93 sweeps/second)
+
+[05/06/2025, 14:55:04] hackrf_sweep stderr: hackrf_close() done
+hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:04] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:04] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:04] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:04] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:04] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:04] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:04] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:05] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:05] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97462 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:05] hackrf_sweep stderr: hackrf_close() done
+hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:05] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:05] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:05] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:05] Average power for 2.4GHz: -60.2 dBm
+[05/06/2025, 14:55:05] No alert for 2.4GHz: avgPower -60.2 dBm <= -59.1 dBm
+[05/06/2025, 14:55:05] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:05] Average power for 5.8GHz: -61.7 dBm
+[05/06/2025, 14:55:05] No alert for 5.8GHz: avgPower -61.7 dBm <= -60.6 dBm
+[05/06/2025, 14:55:05] [14:55:05] OK — ничего подозрительного
+[05/06/2025, 14:55:06] Starting new sweep cycle
+[05/06/2025, 14:55:06] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:06] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:06] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:06] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:06] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:06] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:07] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:07] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97459 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:07] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:07] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:07] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:07] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:07] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:07] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:07] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:07] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:07] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:08] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:08] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97474 seconds (32.83 sweeps/second)
+hackrf_close() done
+
+[05/06/2025, 14:55:08] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:08] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:08] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:08] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:08] Average power for 2.4GHz: -60.2 dBm
+[05/06/2025, 14:55:08] No alert for 2.4GHz: avgPower -60.2 dBm <= -59.1 dBm
+[05/06/2025, 14:55:08] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:08] Average power for 5.8GHz: -61.6 dBm
+[05/06/2025, 14:55:08] No alert for 5.8GHz: avgPower -61.6 dBm <= -60.6 dBm
+[05/06/2025, 14:55:08] [14:55:08] OK — ничего подозрительного
+[05/06/2025, 14:55:08] Starting new sweep cycle
+[05/06/2025, 14:55:08] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:08] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:08] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:08] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:08] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:08] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:09] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:09] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97457 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:09] hackrf_sweep stderr: hackrf_close() done
+hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:09] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:09] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:09] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:09] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:09] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:09] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:09] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:10] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:10] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97455 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:55:10] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:10] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:10] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:10] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:11] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:11] Average power for 2.4GHz: -60.7 dBm
+[05/06/2025, 14:55:11] No alert for 2.4GHz: avgPower -60.7 dBm <= -59.1 dBm
+[05/06/2025, 14:55:11] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:11] Average power for 5.8GHz: -61.9 dBm
+[05/06/2025, 14:55:11] No alert for 5.8GHz: avgPower -61.9 dBm <= -60.6 dBm
+[05/06/2025, 14:55:11] [14:55:10] OK — ничего подозрительного
+[05/06/2025, 14:55:11] Starting new sweep cycle
+[05/06/2025, 14:55:11] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:11] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:11] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:11] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:11] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:11] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:12] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:12] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:12] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:12] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:12] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:12] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:12] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:12] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:12] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:12] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:12] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:13] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:13] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97477 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:13] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:13] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:13] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:13] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:14] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:14] Average power for 2.4GHz: -60.1 dBm
+[05/06/2025, 14:55:14] No alert for 2.4GHz: avgPower -60.1 dBm <= -59.1 dBm
+[05/06/2025, 14:55:14] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:14] Average power for 5.8GHz: -61.8 dBm
+[05/06/2025, 14:55:14] No alert for 5.8GHz: avgPower -61.8 dBm <= -60.6 dBm
+[05/06/2025, 14:55:14] [14:55:13] OK — ничего подозрительного
+[05/06/2025, 14:55:14] Starting new sweep cycle
+[05/06/2025, 14:55:14] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:14] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:14] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:14] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:14] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:14] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:15] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:15] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97456 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:15] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:15] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:15] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:15] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:15] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:15] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:15] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:15] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:15] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:16] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:16] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97457 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:16] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:16] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:16] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:16] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:17] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:17] Average power for 2.4GHz: -59.5 dBm
+[05/06/2025, 14:55:17] No alert for 2.4GHz: avgPower -59.5 dBm <= -59.1 dBm
+[05/06/2025, 14:55:17] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:17] Average power for 5.8GHz: -61.7 dBm
+[05/06/2025, 14:55:17] No alert for 5.8GHz: avgPower -61.7 dBm <= -60.6 dBm
+[05/06/2025, 14:55:17] [14:55:16] OK — ничего подозрительного
+[05/06/2025, 14:55:17] Starting new sweep cycle
+[05/06/2025, 14:55:17] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:17] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:17] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:17] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:17] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:17] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:18] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:18] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:18] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:18] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:18] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:18] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:18] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:18] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:18] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:18] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:18] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:19] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:19] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97478 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:19] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:19] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:19] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:19] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:20] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:20] Average power for 2.4GHz: -59.5 dBm
+[05/06/2025, 14:55:20] No alert for 2.4GHz: avgPower -59.5 dBm <= -59.1 dBm
+[05/06/2025, 14:55:20] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:20] Average power for 5.8GHz: -61.8 dBm
+[05/06/2025, 14:55:20] No alert for 5.8GHz: avgPower -61.8 dBm <= -60.6 dBm
+[05/06/2025, 14:55:20] [14:55:19] OK — ничего подозрительного
+[05/06/2025, 14:55:20] Starting new sweep cycle
+[05/06/2025, 14:55:20] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:20] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:20] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:20] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:20] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:20] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:21] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:21] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97456 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:21] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:21] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:21] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:21] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:21] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:21] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:21] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:21] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:21] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:22] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:22] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97355 seconds (32.87 sweeps/second)
+
+[05/06/2025, 14:55:22] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:22] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:22] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:22] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:23] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:23] Average power for 2.4GHz: -60.0 dBm
+[05/06/2025, 14:55:23] No alert for 2.4GHz: avgPower -60.0 dBm <= -59.1 dBm
+[05/06/2025, 14:55:23] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:23] Average power for 5.8GHz: -61.7 dBm
+[05/06/2025, 14:55:23] No alert for 5.8GHz: avgPower -61.7 dBm <= -60.6 dBm
+[05/06/2025, 14:55:23] [14:55:22] OK — ничего подозрительного
+[05/06/2025, 14:55:23] Starting new sweep cycle
+[05/06/2025, 14:55:23] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:23] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:23] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:23] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:23] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:23] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:24] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:24] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97457 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:24] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:24] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:24] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:24] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:24] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:24] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:24] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:24] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:24] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:25] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:25] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97470 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:25] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:25] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:25] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:25] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:25] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:25] Average power for 2.4GHz: -59.8 dBm
+[05/06/2025, 14:55:25] No alert for 2.4GHz: avgPower -59.8 dBm <= -59.1 dBm
+[05/06/2025, 14:55:25] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:25] Average power for 5.8GHz: -61.6 dBm
+[05/06/2025, 14:55:25] No alert for 5.8GHz: avgPower -61.6 dBm <= -60.6 dBm
+[05/06/2025, 14:55:25] [14:55:25] OK — ничего подозрительного
+[05/06/2025, 14:55:25] Starting new sweep cycle
+[05/06/2025, 14:55:25] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:25] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:26] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:26] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:26] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:26] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:26] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:26] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97443 seconds (80.05 sweeps/second)
+
+[05/06/2025, 14:55:26] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:26] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:26] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:26] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:26] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:27] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:27] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:27] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:27] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:27] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:27] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97454 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:55:27] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:28] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:28] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:28] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:28] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:28] Average power for 2.4GHz: -59.9 dBm
+[05/06/2025, 14:55:28] No alert for 2.4GHz: avgPower -59.9 dBm <= -59.1 dBm
+[05/06/2025, 14:55:28] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:28] Average power for 5.8GHz: -61.8 dBm
+[05/06/2025, 14:55:28] No alert for 5.8GHz: avgPower -61.8 dBm <= -60.6 dBm
+[05/06/2025, 14:55:28] [14:55:28] OK — ничего подозрительного
+[05/06/2025, 14:55:28] Starting new sweep cycle
+[05/06/2025, 14:55:28] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:28] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:28] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:28] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:28] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:28] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:29] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:29] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97455 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:29] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:29] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:29] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:29] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:29] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:29] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:29] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:29] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:29] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:30] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:30] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97470 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:30] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:30] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:30] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:30] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:31] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:31] Average power for 2.4GHz: -60.6 dBm
+[05/06/2025, 14:55:31] No alert for 2.4GHz: avgPower -60.6 dBm <= -59.1 dBm
+[05/06/2025, 14:55:31] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:31] Average power for 5.8GHz: -61.5 dBm
+[05/06/2025, 14:55:31] No alert for 5.8GHz: avgPower -61.5 dBm <= -60.6 dBm
+[05/06/2025, 14:55:31] [14:55:30] OK — ничего подозрительного
+[05/06/2025, 14:55:31] Starting new sweep cycle
+[05/06/2025, 14:55:31] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:31] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:31] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:31] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:31] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:31] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:32] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:32] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97454 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:32] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:32] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:32] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:32] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:32] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:32] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:32] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:32] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:32] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:33] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:33] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97457 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:55:33] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:33] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:33] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:33] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:34] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:34] Average power for 2.4GHz: -60.2 dBm
+[05/06/2025, 14:55:34] No alert for 2.4GHz: avgPower -60.2 dBm <= -59.1 dBm
+[05/06/2025, 14:55:34] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:34] Average power for 5.8GHz: -61.8 dBm
+[05/06/2025, 14:55:34] No alert for 5.8GHz: avgPower -61.8 dBm <= -60.6 dBm
+[05/06/2025, 14:55:34] [14:55:33] OK — ничего подозрительного
+[05/06/2025, 14:55:34] Starting new sweep cycle
+[05/06/2025, 14:55:34] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:34] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:34] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:34] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:34] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:34] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:35] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:35] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97456 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:35] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:35] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:35] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:35] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:35] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:35] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:35] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:35] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:35] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:36] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:36] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97473 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:36] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:36] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:36] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:36] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:37] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:37] Average power for 2.4GHz: -60.2 dBm
+[05/06/2025, 14:55:37] No alert for 2.4GHz: avgPower -60.2 dBm <= -59.1 dBm
+[05/06/2025, 14:55:37] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:37] Average power for 5.8GHz: -61.9 dBm
+[05/06/2025, 14:55:37] No alert for 5.8GHz: avgPower -61.9 dBm <= -60.6 dBm
+[05/06/2025, 14:55:37] [14:55:36] OK — ничего подозрительного
+[05/06/2025, 14:55:37] Starting new sweep cycle
+[05/06/2025, 14:55:37] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:37] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:37] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:37] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:37] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:37] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:38] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:38] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97469 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:38] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:38] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:38] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:38] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:38] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:38] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:38] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:38] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:38] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:39] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:39] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97463 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:39] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:39] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:39] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:39] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:40] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:40] Average power for 2.4GHz: -60.4 dBm
+[05/06/2025, 14:55:40] No alert for 2.4GHz: avgPower -60.4 dBm <= -59.1 dBm
+[05/06/2025, 14:55:40] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:40] Average power for 5.8GHz: -60.6 dBm
+[05/06/2025, 14:55:40] Activating ALERT_PIN
+[05/06/2025, 14:55:40] [14:55:39] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.6 dB
+[05/06/2025, 14:55:40] Starting new sweep cycle
+[05/06/2025, 14:55:40] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:40] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:40] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:40] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:40] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:40] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:41] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:41] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97462 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:41] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:41] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:41] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:41] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:41] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:41] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:41] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:41] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:41] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:42] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:42] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97468 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:42] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:42] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:42] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:42] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:43] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:43] Average power for 2.4GHz: -60.3 dBm
+[05/06/2025, 14:55:43] No alert for 2.4GHz: avgPower -60.3 dBm <= -59.1 dBm
+[05/06/2025, 14:55:43] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:43] Average power for 5.8GHz: -59.9 dBm
+[05/06/2025, 14:55:43] Activating ALERT_PIN
+[05/06/2025, 14:55:43] [14:55:42] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -59.9 dB
+[05/06/2025, 14:55:43] Starting new sweep cycle
+[05/06/2025, 14:55:43] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:43] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:43] Deactivating ALERT_PIN
+[05/06/2025, 14:55:43] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:43] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:43] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:43] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:44] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:44] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:55:44] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:44] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:44] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:44] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:44] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:44] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:44] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:44] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:44] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:45] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:45] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97457 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:55:45] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:45] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:45] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:45] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:45] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:45] Average power for 2.4GHz: -59.7 dBm
+[05/06/2025, 14:55:45] No alert for 2.4GHz: avgPower -59.7 dBm <= -59.1 dBm
+[05/06/2025, 14:55:45] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:45] Average power for 5.8GHz: -60.2 dBm
+[05/06/2025, 14:55:45] Activating ALERT_PIN
+[05/06/2025, 14:55:45] [14:55:45] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.2 dB
+[05/06/2025, 14:55:45] Starting new sweep cycle
+[05/06/2025, 14:55:45] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:45] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:45] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:45] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:45] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:45] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:46] Deactivating ALERT_PIN
+[05/06/2025, 14:55:46] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:46] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97454 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:46] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:46] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:46] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:46] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:46] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:46] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:46] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:46] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:46] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:47] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:47] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97469 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:47] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:47] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:47] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:47] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:48] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:48] Average power for 2.4GHz: -59.5 dBm
+[05/06/2025, 14:55:48] No alert for 2.4GHz: avgPower -59.5 dBm <= -59.1 dBm
+[05/06/2025, 14:55:48] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:48] Average power for 5.8GHz: -60.3 dBm
+[05/06/2025, 14:55:48] Activating ALERT_PIN
+[05/06/2025, 14:55:48] [14:55:47] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.3 dB
+[05/06/2025, 14:55:48] Starting new sweep cycle
+[05/06/2025, 14:55:48] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:48] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:48] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:48] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:48] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:48] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:48] Deactivating ALERT_PIN
+[05/06/2025, 14:55:49] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:49] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97356 seconds (80.12 sweeps/second)
+
+[05/06/2025, 14:55:49] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:49] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:49] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:49] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:49] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:49] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:49] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:49] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:49] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:50] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:50] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97453 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:55:50] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:50] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:50] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:50] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:51] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:51] Average power for 2.4GHz: -60.4 dBm
+[05/06/2025, 14:55:51] No alert for 2.4GHz: avgPower -60.4 dBm <= -59.1 dBm
+[05/06/2025, 14:55:51] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:51] Average power for 5.8GHz: -60.3 dBm
+[05/06/2025, 14:55:51] Activating ALERT_PIN
+[05/06/2025, 14:55:51] [14:55:50] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.3 dB
+[05/06/2025, 14:55:51] Starting new sweep cycle
+[05/06/2025, 14:55:51] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:51] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:51] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:51] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:51] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:51] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:51] Deactivating ALERT_PIN
+[05/06/2025, 14:55:52] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:52] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97553 seconds (79.96 sweeps/second)
+
+[05/06/2025, 14:55:52] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:52] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:52] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:52] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:52] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:52] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:52] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:52] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:52] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:53] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:53] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97471 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:53] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:53] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:53] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:53] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:54] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:54] Average power for 2.4GHz: -60.4 dBm
+[05/06/2025, 14:55:54] No alert for 2.4GHz: avgPower -60.4 dBm <= -59.1 dBm
+[05/06/2025, 14:55:54] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:54] Average power for 5.8GHz: -60.2 dBm
+[05/06/2025, 14:55:54] Activating ALERT_PIN
+[05/06/2025, 14:55:54] [14:55:53] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.2 dB
+[05/06/2025, 14:55:54] Starting new sweep cycle
+[05/06/2025, 14:55:54] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:54] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:54] Deactivating ALERT_PIN
+[05/06/2025, 14:55:54] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:54] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:54] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:54] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:55] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:55] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97457 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:55:55] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:55] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:55] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:55] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:55] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:55] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:55] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:55] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:55] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:56] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:56] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97458 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:56] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:56] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:56] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:56] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:55:57] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:55:57] Average power for 2.4GHz: -59.8 dBm
+[05/06/2025, 14:55:57] No alert for 2.4GHz: avgPower -59.8 dBm <= -59.1 dBm
+[05/06/2025, 14:55:57] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:55:57] Average power for 5.8GHz: -60.2 dBm
+[05/06/2025, 14:55:57] Activating ALERT_PIN
+[05/06/2025, 14:55:57] [14:55:56] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.2 dB
+[05/06/2025, 14:55:57] Starting new sweep cycle
+[05/06/2025, 14:55:57] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:55:57] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:55:57] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:57] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:57] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:55:57] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:57] Deactivating ALERT_PIN
+[05/06/2025, 14:55:58] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:55:58] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97487 seconds (80.01 sweeps/second)
+
+[05/06/2025, 14:55:58] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:58] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:58] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:58] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:55:58] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:55:58] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:55:58] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:55:58] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:55:58] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:55:59] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:55:59] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97472 seconds (32.83 sweeps/second)
+
+[05/06/2025, 14:55:59] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:55:59] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:55:59] hackrf_sweep closed with code: 0
+[05/06/2025, 14:55:59] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:56:00] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:56:00] Average power for 2.4GHz: -60.1 dBm
+[05/06/2025, 14:56:00] No alert for 2.4GHz: avgPower -60.1 dBm <= -59.1 dBm
+[05/06/2025, 14:56:00] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:56:00] Average power for 5.8GHz: -60.2 dBm
+[05/06/2025, 14:56:00] Activating ALERT_PIN
+[05/06/2025, 14:56:00] [14:55:59] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.2 dB
+[05/06/2025, 14:56:00] Starting new sweep cycle
+[05/06/2025, 14:56:00] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:56:00] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:56:00] Deactivating ALERT_PIN
+[05/06/2025, 14:56:00] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:56:00] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:56:00] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:56:00] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:56:01] hackrf_sweep for band 2.4GHz timed out and was killed
+[05/06/2025, 14:56:01] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97455 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:56:01] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:56:01] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:56:01] hackrf_sweep closed with code: 0
+[05/06/2025, 14:56:01] Processing band 5.8GHz (2/2). Threshhold -60.6
+[05/06/2025, 14:56:01] Starting hackrf_sweep for band: 5.8GHz (5625:5850 MHz)
+[05/06/2025, 14:56:01] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:56:01] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:56:01] hackrf_sweep stderr: Sweeping from 5625 MHz to 5865 MHz
+
+[05/06/2025, 14:56:01] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:56:02] hackrf_sweep for band 5.8GHz timed out and was killed
+[05/06/2025, 14:56:02] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 32 in 0.97455 seconds (32.84 sweeps/second)
+
+[05/06/2025, 14:56:02] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:56:02] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:56:02] hackrf_sweep closed with code: 0
+[05/06/2025, 14:56:02] All bands scanned, total frequencies: 9408
+[05/06/2025, 14:56:02] Band 2.4GHz (2400-2485 MHz)
+[05/06/2025, 14:56:02] Average power for 2.4GHz: -60.6 dBm
+[05/06/2025, 14:56:02] No alert for 2.4GHz: avgPower -60.6 dBm <= -59.1 dBm
+[05/06/2025, 14:56:02] Band 5.8GHz (5625-5850 MHz)
+[05/06/2025, 14:56:02] Average power for 5.8GHz: -60.0 dBm
+[05/06/2025, 14:56:02] Activating ALERT_PIN
+[05/06/2025, 14:56:02] [14:56:02] 🛸 Дрон у диапазоне 5.8GHz (5625–5850 MHz). Мощность: -60.0 dB
+[05/06/2025, 14:56:03] Starting new sweep cycle
+[05/06/2025, 14:56:03] Processing band 2.4GHz (1/2). Threshhold -59.1
+[05/06/2025, 14:56:03] Starting hackrf_sweep for band: 2.4GHz (2400:2485 MHz)
+[05/06/2025, 14:56:03] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:56:03] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:56:03] hackrf_sweep stderr: Sweeping from 2400 MHz to 2500 MHz
+
+[05/06/2025, 14:56:03] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:56:03] Deactivating ALERT_PIN
+[05/06/2025, 14:56:03] Exiting script

@@ -1,0 +1,450 @@
+[05/06/2025, 14:49:45] Script started
+[05/06/2025, 14:49:45] Starting new sweep cycle
+[05/06/2025, 14:49:45] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:45] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:45] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:45] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:45] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:45] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:46] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:46] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97502 seconds (80.00 sweeps/second)
+
+[05/06/2025, 14:49:46] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:46] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:46] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:46] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:47] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:47] Average power for 3.3GHz: -61.4 dBm
+[05/06/2025, 14:49:47] No alert for 3.3GHz: avgPower -61.4 dBm <= -60.5 dBm
+[05/06/2025, 14:49:47] [14:49:46] OK — ничего подозрительного
+[05/06/2025, 14:49:47] Starting new sweep cycle
+[05/06/2025, 14:49:47] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:47] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:47] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:47] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:47] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:47] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:48] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:48] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97463 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:49:48] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:48] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:48] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:48] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:48] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:48] Average power for 3.3GHz: -61.6 dBm
+[05/06/2025, 14:49:48] No alert for 3.3GHz: avgPower -61.6 dBm <= -60.5 dBm
+[05/06/2025, 14:49:48] [14:49:48] OK — ничего подозрительного
+[05/06/2025, 14:49:48] Starting new sweep cycle
+[05/06/2025, 14:49:48] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:48] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:48] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:48] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:48] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:48] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:49] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:49] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97461 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:49:49] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:49] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:49] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:49] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:49] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:49] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:49:49] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:49:49] [14:49:49] OK — ничего подозрительного
+[05/06/2025, 14:49:49] Starting new sweep cycle
+[05/06/2025, 14:49:49] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:49] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:49] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:49] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:49] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:49] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:50] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:50] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97479 seconds (80.02 sweeps/second)
+
+[05/06/2025, 14:49:50] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:50] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:50] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:50] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:51] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:51] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:49:51] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:49:51] [14:49:50] OK — ничего подозрительного
+[05/06/2025, 14:49:51] Starting new sweep cycle
+[05/06/2025, 14:49:51] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:51] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:51] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:51] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:51] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:51] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:52] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:52] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97471 seconds (80.02 sweeps/second)
+
+[05/06/2025, 14:49:52] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:52] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:52] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:52] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:52] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:52] Average power for 3.3GHz: -61.6 dBm
+[05/06/2025, 14:49:52] No alert for 3.3GHz: avgPower -61.6 dBm <= -60.5 dBm
+[05/06/2025, 14:49:52] [14:49:52] OK — ничего подозрительного
+[05/06/2025, 14:49:52] Starting new sweep cycle
+[05/06/2025, 14:49:52] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:52] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:52] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:52] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:52] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:52] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:53] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:53] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97367 seconds (80.11 sweeps/second)
+
+[05/06/2025, 14:49:53] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:53] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:53] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:53] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:53] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:53] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:49:53] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:49:53] [14:49:53] OK — ничего подозрительного
+[05/06/2025, 14:49:53] Starting new sweep cycle
+[05/06/2025, 14:49:53] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:53] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:53] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:53] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:53] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:53] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:54] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:54] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:49:54] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:54] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:54] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:54] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:55] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:55] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:49:55] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:49:55] [14:49:54] OK — ничего подозрительного
+[05/06/2025, 14:49:55] Starting new sweep cycle
+[05/06/2025, 14:49:55] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:55] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:55] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:55] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:55] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:55] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:56] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:56] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97477 seconds (80.02 sweeps/second)
+
+[05/06/2025, 14:49:56] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:56] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:56] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:56] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:56] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:56] Average power for 3.3GHz: -61.4 dBm
+[05/06/2025, 14:49:56] No alert for 3.3GHz: avgPower -61.4 dBm <= -60.5 dBm
+[05/06/2025, 14:49:56] [14:49:56] OK — ничего подозрительного
+[05/06/2025, 14:49:56] Starting new sweep cycle
+[05/06/2025, 14:49:56] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:56] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:56] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:56] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:56] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:56] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:57] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:57] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97363 seconds (80.11 sweeps/second)
+
+[05/06/2025, 14:49:57] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:57] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:57] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:57] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:57] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:57] Average power for 3.3GHz: -61.2 dBm
+[05/06/2025, 14:49:57] No alert for 3.3GHz: avgPower -61.2 dBm <= -60.5 dBm
+[05/06/2025, 14:49:57] [14:49:57] OK — ничего подозрительного
+[05/06/2025, 14:49:57] Starting new sweep cycle
+[05/06/2025, 14:49:57] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:57] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:57] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:57] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:57] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:57] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:49:58] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:49:58] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:49:58] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:49:58] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:49:58] hackrf_sweep closed with code: 0
+[05/06/2025, 14:49:58] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:49:58] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:49:58] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:49:58] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:49:58] [14:49:58] OK — ничего подозрительного
+[05/06/2025, 14:49:59] Starting new sweep cycle
+[05/06/2025, 14:49:59] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:49:59] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:49:59] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:49:59] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:49:59] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:49:59] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:00] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:00] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97460 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:50:00] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:00] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:00] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:00] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:00] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:00] Average power for 3.3GHz: -61.4 dBm
+[05/06/2025, 14:50:00] No alert for 3.3GHz: avgPower -61.4 dBm <= -60.5 dBm
+[05/06/2025, 14:50:00] [14:50:00] OK — ничего подозрительного
+[05/06/2025, 14:50:00] Starting new sweep cycle
+[05/06/2025, 14:50:00] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:50:00] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:50:00] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:50:00] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:50:00] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:50:00] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:01] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:01] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97474 seconds (80.02 sweeps/second)
+
+[05/06/2025, 14:50:01] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:01] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:01] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:01] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:01] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:01] Average power for 3.3GHz: -61.6 dBm
+[05/06/2025, 14:50:01] No alert for 3.3GHz: avgPower -61.6 dBm <= -60.5 dBm
+[05/06/2025, 14:50:01] [14:50:01] OK — ничего подозрительного
+[05/06/2025, 14:50:01] Starting new sweep cycle
+[05/06/2025, 14:50:01] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:50:01] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:50:01] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:50:01] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:50:01] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:50:01] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:02] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:02] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97478 seconds (80.02 sweeps/second)
+
+[05/06/2025, 14:50:02] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:02] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:02] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:02] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:02] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:02] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:50:02] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:50:02] [14:50:02] OK — ничего подозрительного
+[05/06/2025, 14:50:02] Starting new sweep cycle
+[05/06/2025, 14:50:02] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:50:02] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:50:02] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:50:03] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:50:03] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:50:03] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:03] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:03] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97463 seconds (80.03 sweeps/second)
+
+[05/06/2025, 14:50:03] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:03] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:03] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:03] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:04] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:04] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:50:04] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:50:04] [14:50:03] OK — ничего подозрительного
+[05/06/2025, 14:50:04] Starting new sweep cycle
+[05/06/2025, 14:50:04] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:50:04] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:50:04] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:50:04] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:50:04] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:50:04] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:05] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:05] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97457 seconds (80.04 sweeps/second)
+
+[05/06/2025, 14:50:05] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:05] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:05] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:05] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:05] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:05] Average power for 3.3GHz: -61.6 dBm
+[05/06/2025, 14:50:05] No alert for 3.3GHz: avgPower -61.6 dBm <= -60.5 dBm
+[05/06/2025, 14:50:05] [14:50:05] OK — ничего подозрительного
+[05/06/2025, 14:50:05] Starting new sweep cycle
+[05/06/2025, 14:50:05] Processing band 3.3GHz (1/1). Threshhold -60.5
+[05/06/2025, 14:50:05] Starting hackrf_sweep for band: 3.3GHz (3300:3400 MHz)
+[05/06/2025, 14:50:05] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:50:05] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:50:05] hackrf_sweep stderr: Sweeping from 3300 MHz to 3400 MHz
+
+[05/06/2025, 14:50:05] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:50:06] hackrf_sweep for band 3.3GHz timed out and was killed
+[05/06/2025, 14:50:06] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 78 in 0.97510 seconds (79.99 sweeps/second)
+
+[05/06/2025, 14:50:06] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:50:06] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:50:06] hackrf_sweep closed with code: 0
+[05/06/2025, 14:50:06] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:50:06] Band 3.3GHz (3300-3400 MHz)
+[05/06/2025, 14:50:06] Average power for 3.3GHz: -61.5 dBm
+[05/06/2025, 14:50:06] No alert for 3.3GHz: avgPower -61.5 dBm <= -60.5 dBm
+[05/06/2025, 14:50:06] [14:50:06] OK — ничего подозрительного
+[05/06/2025, 14:50:06] Exiting script

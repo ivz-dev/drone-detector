@@ -19,16 +19,13 @@ logToFile("Script started");
 
 // --- Частотные диапазоны
 const BANDS = [
-  { start: 2400, end: 2485, name: "2.4GHz", threshold: -59.5 }, 
+  { start: 2400, end: 2485, name: "2.4GHz", threshold: -58.8 }, 
   { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.6 }, 
-  // { start: 902, end: 928, name: "900MHz" },
-  // { start: 1280, end: 1320, name: "1.3GHz" },
-  // { start: 3300, end: 3400, name: "3.3GHz" },
-  // { start: 1160, end: 1280, name: "1.2GHz" },
+  { start: 902, end: 928, name: "900MHz", threshold: -60.4  },
+  { start: 1280, end: 1320, name: "1.3GHz", threshold: -60.5   },
+  { start: 3300, end: 3400, name: "3.3GHz", threshold: -60.5  },
+  { start: 1160, end: 1280, name: "1.2GHz", threshold: -60.5 },
 ];
-
-// --- Порог мощности
-// const THRESHOLD_DBM = -60.6;
 
 // --- GPIO настройка
 const ALERT_PIN = new Gpio(586, "out");
@@ -140,7 +137,7 @@ function scanBand(band, callback) {
   setTimeout(() => {
     hackrf.kill();
     logToFile(`hackrf_sweep for band ${band.name} timed out and was killed`);
-  }, 5000);
+  }, 1000);
 }
 
 function runSweep() {
@@ -183,13 +180,13 @@ function runSweep() {
         setTimeout(() => {
           logToFile("Deactivating ALERT_PIN");
           ALERT_PIN.writeSync(0);
-        }, 2000);
+        }, 3000);
       } else {
         logToFile(`[${now}] OK — ничего подозрительного`);
       }
 
       screen.render();
-      setTimeout(runSweep, 2000);
+      setTimeout(runSweep, 100);
       return;
     }
 

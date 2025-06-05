@@ -1,0 +1,237 @@
+[05/06/2025, 14:47:39] Script started
+[05/06/2025, 14:47:39] Starting new sweep cycle
+[05/06/2025, 14:47:39] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:39] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:39] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:39] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:39] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:39] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:40] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:40] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 191 in 0.95953 seconds (199.06 sweeps/second)
+
+[05/06/2025, 14:47:40] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:40] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:40] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:40] All bands scanned, total frequencies: 4608
+[05/06/2025, 14:47:40] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:40] Average power for 1.3GHz: -61.4 dBm
+[05/06/2025, 14:47:40] No alert for 1.3GHz: avgPower -61.4 dBm <= -60.4 dBm
+[05/06/2025, 14:47:40] [14:47:40] OK — ничего подозрительного
+[05/06/2025, 14:47:40] Starting new sweep cycle
+[05/06/2025, 14:47:40] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:40] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:40] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:40] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:40] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:40] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:41] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:41] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97431 seconds (200.14 sweeps/second)
+
+[05/06/2025, 14:47:41] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:41] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:41] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:41] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:42] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:42] Average power for 1.3GHz: -61.8 dBm
+[05/06/2025, 14:47:42] No alert for 1.3GHz: avgPower -61.8 dBm <= -60.4 dBm
+[05/06/2025, 14:47:42] [14:47:41] OK — ничего подозрительного
+[05/06/2025, 14:47:42] Starting new sweep cycle
+[05/06/2025, 14:47:42] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:42] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:42] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:42] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:42] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:42] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:43] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:43] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97474 seconds (200.05 sweeps/second)
+
+[05/06/2025, 14:47:43] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:43] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:43] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:43] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:43] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:43] Average power for 1.3GHz: -61.6 dBm
+[05/06/2025, 14:47:43] No alert for 1.3GHz: avgPower -61.6 dBm <= -60.4 dBm
+[05/06/2025, 14:47:43] [14:47:43] OK — ничего подозрительного
+[05/06/2025, 14:47:43] Starting new sweep cycle
+[05/06/2025, 14:47:43] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:43] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:43] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:43] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:43] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:43] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:44] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:44] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97447 seconds (200.11 sweeps/second)
+
+[05/06/2025, 14:47:44] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:44] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:44] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:44] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:44] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:44] Average power for 1.3GHz: -61.5 dBm
+[05/06/2025, 14:47:44] No alert for 1.3GHz: avgPower -61.5 dBm <= -60.4 dBm
+[05/06/2025, 14:47:44] [14:47:44] OK — ничего подозрительного
+[05/06/2025, 14:47:44] Starting new sweep cycle
+[05/06/2025, 14:47:44] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:44] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:44] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:44] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:44] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:44] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:45] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:45] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97535 seconds (199.93 sweeps/second)
+
+[05/06/2025, 14:47:45] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:45] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:45] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:45] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:45] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:45] Average power for 1.3GHz: -61.6 dBm
+[05/06/2025, 14:47:45] No alert for 1.3GHz: avgPower -61.6 dBm <= -60.4 dBm
+[05/06/2025, 14:47:45] [14:47:45] OK — ничего подозрительного
+[05/06/2025, 14:47:46] Starting new sweep cycle
+[05/06/2025, 14:47:46] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:46] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:46] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:46] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:46] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:46] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:47] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:47] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97541 seconds (199.92 sweeps/second)
+
+[05/06/2025, 14:47:47] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:47] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:47] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:47] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:47] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:47] Average power for 1.3GHz: -61.6 dBm
+[05/06/2025, 14:47:47] No alert for 1.3GHz: avgPower -61.6 dBm <= -60.4 dBm
+[05/06/2025, 14:47:47] [14:47:47] OK — ничего подозрительного
+[05/06/2025, 14:47:47] Starting new sweep cycle
+[05/06/2025, 14:47:47] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:47] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:47] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:47] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:47] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:47] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:48] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:48] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97434 seconds (200.14 sweeps/second)
+
+[05/06/2025, 14:47:48] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:48] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:48] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:48] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:48] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:48] Average power for 1.3GHz: -61.6 dBm
+[05/06/2025, 14:47:48] No alert for 1.3GHz: avgPower -61.6 dBm <= -60.4 dBm
+[05/06/2025, 14:47:48] [14:47:48] OK — ничего подозрительного
+[05/06/2025, 14:47:48] Starting new sweep cycle
+[05/06/2025, 14:47:48] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:48] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:48] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:48] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:48] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:48] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:49] hackrf_sweep for band 1.3GHz timed out and was killed
+[05/06/2025, 14:47:49] hackrf_sweep stderr: Caught signal 15
+
+Exiting...
+Total sweeps: 195 in 0.97449 seconds (200.10 sweeps/second)
+
+[05/06/2025, 14:47:49] hackrf_sweep stderr: hackrf_close() done
+
+[05/06/2025, 14:47:49] hackrf_sweep stderr: hackrf_exit() done
+exit
+
+[05/06/2025, 14:47:49] hackrf_sweep closed with code: 0
+[05/06/2025, 14:47:49] All bands scanned, total frequencies: 4704
+[05/06/2025, 14:47:49] Band 1.3GHz (1280-1320 MHz)
+[05/06/2025, 14:47:49] Average power for 1.3GHz: -61.7 dBm
+[05/06/2025, 14:47:49] No alert for 1.3GHz: avgPower -61.7 dBm <= -60.4 dBm
+[05/06/2025, 14:47:49] [14:47:49] OK — ничего подозрительного
+[05/06/2025, 14:47:50] Starting new sweep cycle
+[05/06/2025, 14:47:50] Processing band 1.3GHz (1/1). Threshhold -60.4
+[05/06/2025, 14:47:50] Starting hackrf_sweep for band: 1.3GHz (1280:1320 MHz)
+[05/06/2025, 14:47:50] hackrf_sweep stderr: call hackrf_sample_rate_set(20.000 MHz)
+
+[05/06/2025, 14:47:50] hackrf_sweep stderr: call hackrf_baseband_filter_bandwidth_set(15.000 MHz)
+
+[05/06/2025, 14:47:50] hackrf_sweep stderr: Sweeping from 1280 MHz to 1320 MHz
+
+[05/06/2025, 14:47:50] hackrf_sweep stderr: Stop with Ctrl-C
+
+[05/06/2025, 14:47:50] Exiting script
