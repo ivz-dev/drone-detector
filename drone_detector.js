@@ -6,8 +6,8 @@ const Gpio = require('onoff').Gpio; // для роботи з GPIO
 
 // --- Частотні діапазони
 const BANDS = [
-  { start: 2400, end: 2485, name: '2.4GHz' },
-  { start: 5725, end: 5850, name: '5.8GHz' },
+//  { start: 2400, end: 2485, name: '2.4GHz' },
+  { start: 5625, end: 5850, name: '5.8GHz' },
   { start: 902, end: 928, name: '900MHz' },
   { start: 1280, end: 1320, name: '1.3GHz' },
   { start: 3300, end: 3400, name: '3.3GHz' },
@@ -18,7 +18,7 @@ const BANDS = [
 const THRESHOLD_DBM = -70;
 
 // --- GPIO налаштування
-const ALERT_PIN = new Gpio(17, 'out'); // GPIO17 для сигналізації
+const ALERT_PIN = new Gpio(586, 'out'); // GPIO17 для сигналізації
 
 // --- UI: графік
 const screen = blessed.screen();
@@ -62,8 +62,10 @@ function detect(freqs) {
   const alerts = [];
   BANDS.forEach(({ start, end, name }) => {
     const inBand = freqs.filter(f => f.freq >= start && f.freq <= end);
+	console.log(`inBand for ${name} is: ${inBand}`);
     if (inBand.length > 0) {
       const avgPower = inBand.reduce((sum, f) => sum + f.power, 0) / inBand.length;
+	console.log(`avgPower is: ${avgPower}`);
       if (avgPower > THRESHOLD_DBM) {
         alerts.push({ start, end, name, avgPower: avgPower.toFixed(1) });
       }
@@ -78,16 +80,24 @@ function runSweep() {
   const hackrf = spawn('hackrf_sweep', [
     '-f', freqRanges,
     '-w', '2000000',
-    '-l', '20',
+    '-l', '24',
     '-g', '20',
-    '-n', '1000'
+    '-N', '1000'
   ]);
-  
+
   const rl = readline.createInterface({ input: hackrf.stdout });
   const freqs = [];
 
-  rl.on('line', (line) => {
+//  rl.on('line', (line) => {
+//    const parsed = parseLine(line);
+//    freqs.push(...parsed);
+//  });
+
+rl.on('line', (line) => {
+    console.log(line)
     const parsed = parseLine(line);
+
+    console.log(parsed)
     freqs.push(...parsed);
   });
 
