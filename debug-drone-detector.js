@@ -15,16 +15,17 @@ function logToFile(message) {
 }
 
 // Тестовое сообщение при старте
-logToFile("Script started");
+// logToFile("Script started");
 
 // --- Частотные диапазоны
 const BANDS = [
-  { start: 2400, end: 2485, name: "2.4GHz", threshold: -58.8 }, 
-  { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.6 }, 
-  { start: 902, end: 928, name: "900MHz", threshold: -60.4  },
-  { start: 1280, end: 1320, name: "1.3GHz", threshold: -60.5   },
-  { start: 3300, end: 3400, name: "3.3GHz", threshold: -60.5  },
-  { start: 1160, end: 1280, name: "1.2GHz", threshold: -60.5 },
+  { start: 2400, end: 2485, name: "2.4GHz", threshold: -59.8 }, 
+  // { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.6 }, 
+  { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.4 }, 
+  // { start: 902, end: 928, name: "900MHz", threshold: -60.4  },
+  // { start: 1280, end: 1320, name: "1.3GHz", threshold: -60.5   },
+  // { start: 3300, end: 3400, name: "3.3GHz", threshold: -60.5  },
+  // { start: 1160, end: 1280, name: "1.2GHz", threshold: -60.5 },
 ];
 
 // --- GPIO настройка
@@ -42,7 +43,8 @@ const line = contrib.line({
 });
 screen.append(line);
 screen.key(["escape", "q", "C-c"], () => {
-  logToFile("Exiting script");
+  // logToFile("Exiting script");
+  console.log('Exiting script')
   ALERT_PIN.unexport();
   process.exit(0);
 });
@@ -51,7 +53,7 @@ screen.render();
 function parseLine(line) {
    const parts = line.trim().split(",");
   if (parts.length < 7) {
-    logToFile(`Invalid line format, parts: ${parts.length}`);
+    // logToFile(`Invalid line format, parts: ${parts.length}`);
     return [];
   }
 
@@ -66,7 +68,7 @@ function parseLine(line) {
     if (!isNaN(freq) && !isNaN(power)) {
       freqs.push({ freq, power });
     } else {
-      logToFile(`Invalid freq or power at index ${i}: freq=${freq}, power=${power}`);
+      // logToFile(`Invalid freq or power at index ${i}: freq=${freq}, power=${power}`);
     }
   }
   return freqs;
@@ -77,17 +79,17 @@ function detect(freqs) {
   const alerts = [];
   BANDS.forEach(({ start, end, name, threshold }) => {
     const inBand = freqs.filter((f) => f.freq >= start && f.freq <= end);
-    logToFile(`Band ${name} (${start}-${end} MHz)`);
+    // logToFile(`Band ${name} (${start}-${end} MHz)`);
     if (inBand.length > 0) {
       const avgPower = inBand.reduce((sum, f) => sum + f.power, 0) / inBand.length;
       logToFile(`Average power for ${name}: ${avgPower.toFixed(1)} dBm`);
       if (avgPower > threshold) {
         alerts.push({ start, end, name, avgPower: avgPower.toFixed(1) });
       } else {
-        logToFile(`No alert for ${name}: avgPower ${avgPower.toFixed(1)} dBm <= ${threshold} dBm`);
+        // logToFile(`No alert for ${name}: avgPower ${avgPower.toFixed(1)} dBm <= ${threshold} dBm`);
       }
     } else {
-      logToFile(`No frequencies in band ${name} (${start}-${end} MHz)`);
+      // logToFile(`No frequencies in band ${name} (${start}-${end} MHz)`);
     }
   });
   return alerts;
@@ -95,7 +97,7 @@ function detect(freqs) {
 
 function scanBand(band, callback) {
   const freqRange = `${band.start}:${band.end}`;
-  logToFile(`Starting hackrf_sweep for band: ${band.name} (${freqRange} MHz)`);
+  // logToFile(`Starting hackrf_sweep for band: ${band.name} (${freqRange} MHz)`);
   const hackrf = spawn("hackrf_sweep", [
     "-f",
     freqRange,
@@ -111,7 +113,7 @@ function scanBand(band, callback) {
   ]);
 
   hackrf.stderr.on("data", (data) => {
-    logToFile(`hackrf_sweep stderr: ${data.toString()}`);
+    // logToFile(`hackrf_sweep stderr: ${data.toString()}`);
   });
 
 
@@ -124,31 +126,31 @@ function scanBand(band, callback) {
   });
 
   hackrf.on("close", (code) => {
-    logToFile(`hackrf_sweep closed with code: ${code}`);
+    // logToFile(`hackrf_sweep closed with code: ${code}`);
     callback(freqs);
   });
 
   hackrf.on("error", (err) => {
-    logToFile(`hackrf_sweep process error: ${err.message}`);
+    // logToFile(`hackrf_sweep process error: ${err.message}`);
     callback([]);
   });
 
   // Принудительно завершаем процесс через 5 секунд, чтобы избежать зависания
   setTimeout(() => {
     hackrf.kill();
-    logToFile(`hackrf_sweep for band ${band.name} timed out and was killed`);
+    // logToFile(`hackrf_sweep for band ${band.name} timed out and was killed`);
   }, 1000);
 }
 
 function runSweep() {
-  logToFile("Starting new sweep cycle");
+  // logToFile("Starting new sweep cycle");
   let allFreqs = [];
   let bandIndex = 0;
 
   function scanNextBand() {
     if (bandIndex >= BANDS.length) {
       const now = new Date().toLocaleTimeString();
-      logToFile(`All bands scanned, total frequencies: ${allFreqs.length}`);
+      // logToFile(`All bands scanned, total frequencies: ${allFreqs.length}`);
       const sorted = allFreqs.sort((a, b) => a.freq - b.freq);
       const x = sorted.map((p) => p.freq.toFixed(2));
       const y = sorted.map((p) => p.power);
@@ -162,12 +164,12 @@ function runSweep() {
           },
         ]);
       } else {
-        logToFile("No data to set for graph");
+        // logToFile("No data to set for graph");
       }
 
       const alerts = detect(sorted);
       if (alerts.length > 0) {
-        logToFile("Activating ALERT_PIN");
+        // logToFile("Activating ALERT_PIN");
         ALERT_PIN.writeSync(1);
         alerts.forEach(({ start, end, name, avgPower }) => {
           logToFile(
@@ -178,11 +180,11 @@ function runSweep() {
           );
         });
         setTimeout(() => {
-          logToFile("Deactivating ALERT_PIN");
+          // logToFile("Deactivating ALERT_PIN");
           ALERT_PIN.writeSync(0);
         }, 3000);
       } else {
-        logToFile(`[${now}] OK — ничего подозрительного`);
+        // logToFile(`[${now}] OK — ничего подозрительного`);
       }
 
       screen.render();
@@ -191,7 +193,7 @@ function runSweep() {
     }
 
     const band = BANDS[bandIndex];
-    logToFile(`Processing band ${band.name} (${bandIndex + 1}/${BANDS.length}). Threshhold ${band.threshold}`);
+    // logToFile(`Processing band ${band.name} (${bandIndex + 1}/${BANDS.length}). Threshhold ${band.threshold}`);
     scanBand(band, (freqs) => {
       allFreqs = allFreqs.concat(freqs);
       bandIndex++;

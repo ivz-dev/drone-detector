@@ -15,7 +15,7 @@ const BANDS = [
 ];
 
 // --- Поріг потужності
-const THRESHOLD_DBM = -70;
+const THRESHOLD_DBM = -60;
 
 // --- GPIO налаштування
 const ALERT_PIN = new Gpio(586, 'out'); // GPIO17 для сигналізації

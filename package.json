@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "gpiod": "^0.0.0",
+    "onoff": "^6.0.3"
+  }
+}
