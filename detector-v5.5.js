@@ -9,7 +9,7 @@ function logToFile(message) {
   const timestamp = new Date().toLocaleString();
   const logMessage = `[${timestamp}] ${message}\n`;
   const dateStr = new Date().toISOString().split("T")[0];
-  const logFile = `./logs/log-${dateStr}.log`;
+  const logFile = `/home/pi/drone-detector/logs/log-${dateStr}.log`;
   try {
     fs.appendFileSync(logFile, logMessage);
   } catch (err) {
@@ -20,8 +20,13 @@ function logToFile(message) {
 logToFile("Script started");
 
 const BANDS = [
-//   { start: 2400, end: 2485, name: "2.4GHz", threshold: -40.1 },
   { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.3 },
+  // { start: 5625, end: 5850, name: "5.8GHz", threshold: -61.4 },
+
+  //   { start: 2400, end: 2485, name: "2.4GHz", threshold: -40.1 },
+  // { start: 3300, end: 3400, name: '3.3GHz', threshold: -57  },
+  // { start: 1160, end: 1280, name: '1.2GHz', threshold: -57  },
+  // { start: 1280, end: 1320, name: '1.3GHz', threshold: -57  },
 ];
 
 // Object to store stats for each band
@@ -33,7 +38,7 @@ const bandStats = {
 function logStatsToFile() {
   const timestamp = new Date().toLocaleString();
   const dateStr = new Date().toISOString().split("T")[0];
-  const logFile = `./logs/stats-${dateStr}.log`;
+  const logFile = `/home/pi/drone-detector/logs/stats-${dateStr}.log`;
   const logMessage = `[${timestamp}] Avg for 2.4 band: ${bandStats["2.4GHz"].avg.toFixed(1)} by ${bandStats["2.4GHz"].count} samples\n` +
                     `[${timestamp}] Avg for 5.8 band: ${bandStats["5.8GHz"].avg.toFixed(1)} by ${bandStats["5.8GHz"].count} samples\n`;
   try {
