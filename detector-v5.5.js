@@ -20,8 +20,8 @@ function logToFile(message) {
 logToFile("Script started");
 
 const BANDS = [
-  { start: 5625, end: 5850, name: "5.8GHz", threshold: -60.3 },
-  // { start: 5625, end: 5850, name: "5.8GHz", threshold: -61.4 },
+  { start: 5625, end: 5850, name: "5.8GHz", threshold: -57.0 },
+  // { start: 5625, end: 5850, name: "5.8GHz", threshold: -61.4 }, // lna 20 dBm - fields
 
   //   { start: 2400, end: 2485, name: "2.4GHz", threshold: -40.1 },
   // { start: 3300, end: 3400, name: '3.3GHz', threshold: -57  },
